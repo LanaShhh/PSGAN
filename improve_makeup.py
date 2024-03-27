@@ -59,3 +59,5 @@ def improve_makeup(no_makeup_path, makeup_path, result_path, do_rewrite=True,
         image = image.resize(no_makeup_img.size)
 
     image.save(result_path)
+
+    return True
